@@ -1,0 +1,200 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px 50px;
+}
+
+/* styling the nav header */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin-bottom: 1.5rem;
+}
+
+nav img{
+    width: 35px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link{
+    display: flex;
+    gap: 50px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+}
+
+.icon{
+    display: flex;
+    gap: 30px;
+}
+
+.icon > img{
+    width: 20px;
+}
+
+.hero-img{
+    background-image: url(./assets/scandinavian-interior-mockup-wall-decal-background\ 1.svg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+
+#header{
+    background-color:papayawhip;
+    width: 500px;
+    padding: 50px;
+    position: absolute;
+    float: right;
+    right: 50px;
+    bottom: 100px;
+}
+
+#header h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b8860b;
+}
+
+#header p{
+    color: #789898;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+#header button{
+    width: 150px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #b8860b;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* style for the The-range session */
+.theRange{
+    margin: 5rem 0;
+}
+
+#range{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#range img{
+    margin: 4rem 0 1rem;
+}
+
+
+.browse{
+    text-align: center;
+}
+
+.browse h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.browse p{
+    font-size: 25px; 
+}
+
+/* styling ourProduct */
+
+.prod{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+    /* background-color: red; */
+}
+
+.prod h2, h3,p{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prod h3{
+    font-size: 18px;
+}
+
+.ourProduct h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.ourProduct button{
+    margin: 0 40%;
+    width: 200px;
+    padding: 10px;
+    color: #b8860b;
+    background-color: #fff;
+    border: 1px solid #b8860b;
+}
+
+.cards{
+    background-color:#d3d3d3;
+}
+
+.cards del{
+    font-size: 14px;
+    color: #789898;
+}
+
+.cards p{
+    font-size: 14px;
+    color: #789898;
+}
+
+/* inspiration */
+
+.inspiration{
+    display: flex;
+    margin: 5rem 0;
+    /* border: 2px solid red; */
+}
+
+
+.text{
+    /* padding: 50% 0; */
+    padding: 200px 0;
+}
+
+.text h1{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text button{
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    background-color: #b8860b;
+}
