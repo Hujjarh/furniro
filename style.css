@@ -201,19 +201,91 @@ nav img{
 
 /* style the share our product */
 
-.share h1{
+.share{
+    /* border: 2px solid red; */
+    margin: 5rem 0 15rem;
+    padding: 20px 0;
+}
+
+.share p{
     text-align: center;
+    margin: 2.5rem 0;
+}
+
+.share span{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
 }
 
 .prodShare{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
 }
 
 /* .prodShare img{
     width: 200px;
 } */
+#img2{
+    width: 300px;
+}
 
-.align{
+#img3{
+    /* width: 200px; */
+    position: absolute;
+    left: 420px;
+    top: 150px;
+}
+
+#img4{
+    width: 230px;
+    position: absolute;
+    right: 280px;
+    top: 60px;
+}
+
+#img5{
+    width: 200px;
+    position: absolute;
+    right: 50px;
+}
+#img6{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+#img7{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+#img8{
+    position: absolute;
+    right: 320px;
+    top: 350px;
+}
+#img9{
+    position: absolute;
+    right: 50px;
+    top: 350px;
+}
+
+.footer{
+    /* border: 2px solid; */
+    margin: 3rem 0;
+}
+
+.footnav{
     display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+}
+
+.fGray{
+    color: #808080;
+    font-weight: 400;
 }
