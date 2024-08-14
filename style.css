@@ -198,3 +198,22 @@ nav img{
     color: #fff;
     background-color: #b8860b;
 }
+
+/* style the share our product */
+
+.share h1{
+    text-align: center;
+}
+
+.prodShare{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .prodShare img{
+    width: 200px;
+} */
+
+.align{
+    display: flex;
+}
